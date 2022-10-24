@@ -1,0 +1,32 @@
+GET http://localhost:3500/getusers
+
+###
+POST http://localhost:3500/insertusers
+Content-Type: application/json
+
+{
+    "username": "gabriel",
+    "senha": "gabriel"
+}
+###
+
+POST http://localhost:3500/loginusers
+Content-Type: application/json
+
+{
+    "username": "a",
+    "senha": "a"
+}
+
+###
+
+GET http://localhost:3500/gettasks
+
+###
+POST http://localhost:3500/inserttasks
+Content-Type: application/json
+
+{
+    "username": "a",
+    "senha": "a"
+}
